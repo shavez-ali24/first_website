@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" onload="ld()">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="croma.css">
+    <title>coroma</title>
+    <style>
+        .ld{
+            background-image: url(./image/Curve-Loading.gif);
+            background-repeat: no-repeat;
+            background-color: white;
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            z-index: 54;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="ld"></div>
+    <script>
+        window.setTimeout(function ld(){
+            document.getElementById('loader').style='display:none'
+        },3000);  
+    </script>
+
+    <!-- header start here -->
+    <header>
+        <div class="nav-bar fixed" >
+
+
+        <div class="logo">
+            <img src="./image/logo.png" alt=""/>
+        </div>
+
+       <div class="menu" id="home">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+            <li><a href="#work"> WORK</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+        </ul>
+       </div>
+        </div>
+
+        <div class="banner">
+            <img src="./image/banner.jpg" alt="">
+        </div>
+    </header>
+
+    <!-- header end here -->
+
+    <!-- about us start here -->
+
+    <div class="about-us" id="about">
+        <div class="content">
+
+            <img src="./image/dentist-front.png" alt="">
+
+
+            <h1>ABOUT US</h1><br><br>
+            <P>Welcome to B & D Carpentry and Construction. We pride ourselves on our excellent quality of workmanship and high standard finish. We specialise in delivering high-quality new homes, extensions, home renovations, bespoke kitchens & furniture. We have accumulated a huge amount of knowledge from the many successful jobs we have completed around the Greater Leinster area. We work with Interior designers and Architects so we can work with you from the very start of your project right through to the end without the need to look anywhere else.</P>
+        </div>
+</div>
+
+<!-- about us end here  -->
+<!-- our WORK start here  -->
+
+
+<div class="our-work" id="work">
+    <h1>OUR WORK</h1>
+
+  <div>
+    <img src="./image/work/carpentry1.png" alt="">
+    <img src="./image/work/carpentry2.png" alt="">
+    <img src="./image/work/carpentry3.png" alt="">
+    <img src="./image/work/carpentry4.png" alt="">
+</div>
+<div>
+    <img src="./image/work/carpentry5.png" alt="">
+    <img src="./image/work/carpentry6.png" alt="">
+    <img src="./image/work/carpentry7.png" alt="">
+    <img src="./image/work/carpentry8.png" alt="">
+</div>
+    <div>
+        <img src="./image/work/carpentry9.jpg" alt="">
+        <img src="./image/work/carpentry10.jpg" alt="">
+        <img src="./image/work/carpentry11.jpg" alt="">
+        <img src="./image/work/carpentry12.jpg" alt="">
+    </div>
+</div>
+
+<!-- our work end here  -->
+<!-- contact us start here  -->
+<div class="contact" id="contact">
+    <div class="text-contact">
+        <h1>CONTACT US</h1><br><br>
+        <P>GET IN TOUCH WITH JORDAN & SEAN FOR A FREE ONSITE <br> EVALUATION AND QUOTE</P><br>
+        <p> Email:- banddcarpentry@gmail.com</p>
+        <p> Jordan:- 0860377715</p>
+        <p> Sean:- 0877619596</p>
+    </div>
+
+
+    <div class="form">
+        <input type="text" placeholder="Your Name"><br><br>
+        <input type="email" placeholder="Your Email"><br><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+        <button class="btn">SEND</button>
+    </div>
+    
+</div>
+
+<!-- contact us end here   -->
+<!-- footer start here   -->
+
+<footer>
+    <p> copywrite &copy; 2018 banddcarpentry. All Rights Reserved</p>
+</footer>
+
+
+
+</body>
+</html>
